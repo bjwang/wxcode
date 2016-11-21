@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box" bindtap="setShow">setShow</view>
+</view>
+<block wx:if="{{isMap}}">
+  <view class="map">map</view>
+</block>

@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/game/game",
+    "pages/map/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#000000",
+    "borderStyle": "#aaaaaa",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Home"
+      },{
+        "pagePath": "pages/logs/logs",
+        "text": "Logs"
+      },{
+        "pagePath": "pages/game/game",
+        "text": "Game"
+      },{
+        "pagePath": "pages/map/index",
+        "text": "Map"
+        }]
+  },
+  "debug": true
+}
